@@ -1,0 +1,16 @@
+[project]
+name = "rxflow"
+version = "0.1.0"
+description = "Agentic prescription-intake workflow for pharmacies"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.142.2",
+    "pydantic>=2.13.5",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]
